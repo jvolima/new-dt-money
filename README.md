@@ -12,7 +12,8 @@
 - zod
 
 ## Aprendizados novos
-- Utilizar o Radix para fazer componentes acessivéis, como Modais, Radio groups, etc.
-- Utilizar Controlled components em formulários que possuem componentes que não são nativos do HTML.
-- Utilizar useContextSelector em vez do useContext para evitar renderizações desnecessárias.
-- Utilizar useCallback para evitar que funções sejam recriadas de forma desnecessária quando o componente for recriado.
+- Radix para fazer componentes acessivéis, como Modais, Radio groups, etc.
+- Controlled components em formulários que possuem componentes que não são nativos do HTML.
+- useContextSelector em vez do useContext para evitar renderizações desnecessárias.
+- useCallback para evitar que funções sejam recriadas de forma desnecessária quando o componente for recriado.
+- memo (utilizar apenas em componentes muito complexos, que possuem um html extenso) e useMemo (utilizar apenas em váriaveis que são passadas para vários componentes e é feito um cálculo grande para atribuir valor a ela).
