@@ -1,4 +1,4 @@
-# DT Money 2.0
+# DT Money 2.0 (Controle financeiro)
 ## Aplicação feita na trilha de React do Ignite
 
 ## Stack
